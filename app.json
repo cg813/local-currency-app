@@ -1,0 +1,45 @@
+{
+  "name": "berkshares",
+  "displayName": "BerkShares",
+  "expo": {
+    "name": "BerkShares",
+    "slug": "berkshares",
+    "version": "1.0.15",
+    "icon": "./assets/images/icon_white.png",
+    "orientation": "portrait",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#cbd5cf"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.keyko.berkshares-app",
+      "buildNumber": "1.0.3"
+    },
+    "packagerOpts": {
+      "config": "metro.config.js",
+      "sourceExts": [
+        "js",
+        "jsx",
+        "svg",
+        "ts",
+        "tsx",
+        "pfd",
+        "ttf"
+      ]
+    },
+    "android": {
+      "package": "com.berkshares",
+      "versionCode": 4,
+      "permissions": [
+        "CAMERA",
+        "RECORD_AUDIO",
+        "READ_PHONE_STATE",
+        "READ_CONTACTS"
+      ]
+    }
+  }
+}
